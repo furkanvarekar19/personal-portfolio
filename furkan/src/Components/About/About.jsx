@@ -29,11 +29,12 @@ function About() {
               growing in the field of web development.
             </p>
             <p>
-             <span className="future"> FUTURE LEARNING GOALS</span> <br /> Mastering advanced React.js concepts such as
-              server-side rendering with Next.js. Gaining proficiency in
-              TypeScript for better code quality and maintainability. Learning
-              Graph to optimize data fetching in web applications. Diving deeper
-              into performance optimization techniques for faster loading times.
+              <span className="future"> FUTURE LEARNING GOALS</span> <br />{" "}
+              Mastering advanced React.js concepts such as server-side rendering
+              with Next.js. Gaining proficiency in TypeScript for better code
+              quality and maintainability. Learning Graph to optimize data
+              fetching in web applications. Diving deeper into performance
+              optimization techniques for faster loading times.
             </p>
           </div>
           <div className="about-skills">
