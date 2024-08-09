@@ -12,7 +12,7 @@ function Services() {
         />
       </div>
       <div className="services-container">
-      {/* box-1 */}
+        {/* box-1 */}
         <div className="services-formate">
           <h3>01</h3>
           <h2>Web design</h2>
@@ -25,8 +25,8 @@ function Services() {
             />
           </div>
         </div>
-      {/* box-2 */}
-      <div className="services-formate">
+        {/* box-2 */}
+        <div className="services-formate">
           <h3>02</h3>
           <h2>Web design</h2>
           <p>Web development is the process of building, programming...</p>
@@ -38,8 +38,8 @@ function Services() {
             />
           </div>
         </div>
-      {/* box-3 */}
-      <div className="services-formate">
+        {/* box-3 */}
+        <div className="services-formate">
           <h3>03</h3>
           <h2>Web design</h2>
           <p>Web development is the process of building, programming...</p>
@@ -51,8 +51,8 @@ function Services() {
             />
           </div>
         </div>
-      {/* box-4 */}
-      <div className="services-formate">
+        {/* box-4 */}
+        <div className="services-formate">
           <h3>04</h3>
           <h2>Web design</h2>
           <p>Web development is the process of building, programming...</p>
@@ -64,8 +64,8 @@ function Services() {
             />
           </div>
         </div>
-      {/* box-5 */}
-      <div className="services-formate">
+        {/* box-5 */}
+        <div className="services-formate">
           <h3>05</h3>
           <h2>Web design</h2>
           <p>Web development is the process of building, programming...</p>
@@ -77,8 +77,8 @@ function Services() {
             />
           </div>
         </div>
-      {/* box-6 */}
-      <div className="services-formate">
+        {/* box-6 */}
+        <div className="services-formate">
           <h3>06</h3>
           <h2>Web design</h2>
           <p>Web development is the process of building, programming...</p>
