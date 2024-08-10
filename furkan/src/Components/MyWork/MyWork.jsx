@@ -4,7 +4,7 @@ import search from "../../assets/image-search.png";
 
 function MyWork() {
   return (
-    <div className="mywork">
+    <div id="mywork" className="mywork">
       <div className="mywork_title">
         <h1>My latest work</h1>
         <img

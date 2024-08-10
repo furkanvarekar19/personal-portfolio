@@ -3,7 +3,7 @@ import "./hero.css";
 
 function Hero() {
   return (
-    <div className="hero">
+    <div id="home" className="hero">
       <img
         src="https://cdn-icons-png.flaticon.com/128/3242/3242257.png"
         alt="profile"
