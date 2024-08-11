@@ -2,7 +2,35 @@ import React from "react";
 import "./contact.css";
 
 function Contact() {
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "310f50b7-a4e0-4865-bfe5-846d1e897e01");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json"
+      },
+      body: json
+    }).then((res) => res.json());
+
+    if (res.success) {
+      alert(res.message);
+    }
+  };
+
+
+
+
   return (
+
     <div id="contact" className="contact">
       <div className="contact-title">
         <h1>Get in touch</h1>
@@ -43,7 +71,7 @@ function Contact() {
             </div>
           </div>
         </div>
-        <form className="conttact-right">
+        <form  onSubmit={onSubmit} className="conttact-right">
           <label htmlFor="">Your Name</label>
           <input type="text" name="name" placeholder="Enter your name" />
           <label htmlFor="">Your Email</label>
