@@ -1,16 +1,27 @@
 import React, { useRef, useState } from "react";
 import "./navbar.css";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import bar from '../../assets/bar.svg'
+import cross from '../../assets/cross.svg'
 
 function Navbar() {
   const [menu, setMenu] = useState("home");
-  
+  const menuRef = useRef();
 
+  const  openMenu = ()=>{
+    menuRef.current.style.right="0";
+  }
+  const  closeMenu = ()=>{
+    menuRef.current.style.right="-350px";
+  }
+  
   return (
     <div className="navbar">
       <h1 className="furkan">FURKAN</h1>
+        <img src={bar}  onClick={openMenu} alt="bar-icon" className="nav-mob-open" />
 
-      <ul  className="nav-menu">
+      <ul ref={menuRef} className="nav-menu">
+        <img src={cross} onClick ={closeMenu}  alt="cross-icon" className="nav-mob-close" />
         <li>
         
           <AnchorLink className="anchor-link" href="#home">
