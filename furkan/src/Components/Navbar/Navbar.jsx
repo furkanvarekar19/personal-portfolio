@@ -4,14 +4,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 
 function Navbar() {
   const [menu, setMenu] = useState("home");
-  // const menuRef = useRef();
-
-  // const openMenu = () => {
-  //   menuRef.current.style.right ="0";
-  // };
-  // const closeMenu = () => {
-  //   menuRef.current.style.right ="-350px";
-  // };
+  
 
   return (
     <div className="navbar">
